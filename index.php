@@ -15,6 +15,7 @@
 
 <link rel="stylesheet" type="text/css"href="./CSS/reset.css">
 <link rel="stylesheet" type="text/css"href="./CSS/style.css">
+<link rel="stylesheet" type="text/css"href="./CSS/font.css">
 
 <title> Jaharmony </title>
 </head>
@@ -22,18 +23,17 @@
 <div class="container">
 <header>
 	<div class="row">
-		<div class="col-lg-4 centrat"> 
-			<div class="col-lg-4 logo"> 
-				
-			</div>
-			<div class="col-lg-8" style="position:relative;">
-				<img class="posicionar" src="./img/titol.png"></img>
-			</div>
+		<div class="col-lg-5 centrat"> 
+				<div class="col-lg-4 col-lg-push-1 logo"> 
+				</div>
+				<div class="col-lg-7" style="position:relative;">
+					<img class="posicionar" src="./img/titol.png"></img>
+				</div>
 		</div>
-		<div class="col-lg-8 centrat" style="position:relative;"> 
+		<div class=" col-lg-7 centrat" style="position:relative;margin-left:-35px;"> 
 			<ul class="menu">
 				<li><a>About us</a></li>
-				<li><a>Brand</a>
+				<li><a>Band</a>
 					<ul>
 						<li><a>Albert Cerdan </a></li>
 						<li><a> Dani Merme </a></li>
@@ -43,6 +43,8 @@
 				</li>
 				<li><a>Concerts</a></li>
 				<li><a>Contact</a></li>
+				<li><img src="./img/facebook.png"></img></li>
+				<li><img src="./img/instagram.png"></img></li>
 			</ul>
 		</div>		
 	</div>
