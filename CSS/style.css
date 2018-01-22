@@ -1,0 +1,79 @@
+ /* Paleta Colors: */
+ /* Lime Green #44c44d */
+ /* Maize #f2ed54 */
+ /* FireBrick #b22323 */
+ /* Light Gray #d0e5d3 */
+ /* Black #070400 */
+
+.centrat{
+	text-align:center;
+}
+
+header{
+	border-bottom: 1px solid #d0e5d3;
+	margin: 0px;
+	margin-top:10px;
+}
+
+.logo{
+	background-image: url("../img/logo.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position: 50% 50%;
+	height:120px;
+}
+
+.posicionar{
+	display:block;
+	position:absolute;
+	top: 58px;
+	left: -2px;
+}
+
+.menu{
+	position:absolute;
+	top:50px;
+	margin:28px;
+}
+.menu>li{
+	float:left;	
+}
+.menu>li>a{
+		display:block;
+		padding: 10px 15px;
+}
+
+.menu>li>a:hover{
+	
+}
+
+
+
+.menu li ul{
+	display: none;
+	top: 45px;
+	position: absolute;
+	min-width: 140px;
+	text-align: left;
+}
+
+.menu li:hover > ul{
+	display:block;
+}
+
+.menu>li:nth-child(2){
+	padding-bottom:15px;
+}
+
+.menu li ul li{
+	margin:10px;
+	position:relative;
+}
+
+/* .menu>ul>li{ */
+	/* display:none; */
+/* } */
+
+/* .menu>ul>li, .menu>li:nth-child(2):hover{ */
+  /* display:block; */
+/* } */
