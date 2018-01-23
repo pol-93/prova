@@ -2,3 +2,23 @@
   font-family: Rastaerize;
   src: url(../Fonts/Rastaerize.ttf);
 }
+
+@font-face{
+  font-family: CaviarDreams;
+  src: url(../Fonts/CaviarDreams.ttf);
+}
+
+@font-face{
+  font-family: big_noodle_titling_oblique;
+  src: url(../Fonts/big_noodle_titling_oblique.ttf);
+}
+
+@font-face{
+  font-family: big_noodle_titling;
+  src: url(../Fonts/big_noodle_titling.ttf);
+}
+
+@font-face{
+  font-family: TheLightFont;
+  src: url(../Fonts/TheLightFont.ttf);
+}
