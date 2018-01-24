@@ -32,16 +32,21 @@ header{
 .posicionar{
 	display:block;
 	position:absolute;
-	top: 17px;
+	top: 13px;
 	left: 42px;
 }
 
 /* Menu Web */
 
-
+.menupartdreta{
+    position: relative;
+    float: right;
+    width: 600px;
+    margin-right: 50px;
+}
 .menu{
-	position:absolute;
-	top:-20px;
+	position:fixed;
+	top:-10px;
 	margin:28px;
 	cursor:pointer;
 	font-family: TheLightFont;Helvetica;
@@ -51,23 +56,49 @@ header{
 .menu>li{
 	float:left;
 }
-.menu>li>a{
+.menu>li>a{	
 		display:block;
-		padding: 10px 15px;
+		margin: 10px 15px;
+		padding-bottom:8px;
 		color:#d0e5d3;
+		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;		
 }
 
 .menu>li>a:hover{
-	color: #b22323;
+	border-bottom: 1px solid #f2ed54;
 	text-decoration:none;
 }
 
 .menu li ul{
 	display: none;
-	top: 45px;
+	top: 55px;
+	left:127px;
 	position: absolute;
 	min-width: 140px;
 	text-align: left;
+	background-color:black;
+	font-size: 18px;
+	border-left: 2px solid #b22323;
+}
+
+.menu>li>ul>li>a{
+	color:#d0e5d3;
+}
+
+.menu>li>ul>li>a:hover{
+	text-decoration:none;
+}
+
+.menu>li>ul>li{
+	margin:0px !important;
+	padding:10px;	
+	background-color:#070400;
+}
+
+.menu>li>ul>li:hover{
+	background-color:#b22323;
 }
 
 .menu>li:nth-child(5){
@@ -139,8 +170,15 @@ header{
 }
 
 .botoslide:hover{
-	background-color: #44c44d;
+	background-color: #b22323;
 }
 
+.carousel-indicators .active{
+    background-color: #44c44d !important;
+	border:none !important;
+}
 
-
+.carousel-indicators li{
+	background-color: #d0e5d3 !important;
+	border:none !important;
+}

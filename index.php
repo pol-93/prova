@@ -36,14 +36,14 @@
 					<img class="posicionar" src="./img/titol.png"></img>
 				</div>
 		</div>
-		<div class=" col-lg-7 col-md-7 centrat" style="position:relative;margin-left:-35px;"> 
+		<div class="menupartdreta"> 
 			<ul class="menu">
 				<li><a>About us</a></li>
 				<li><a>Band</a>
 					<ul>
 						<li><a>Albert Cerdan </a></li>
 						<li><a> Dani Merme </a></li>
-						<li><a> Adrià </a></li>
+						<li><a> Adria </a></li>
 						<li><a> Nil Couto </a></li>
 					</ul>
 				</li>
@@ -58,12 +58,16 @@
 
 <div class="row hidden-xs hidden-sm">
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>  
+    </ol>
 	  <!-- Wrapper for slides -->
 	  <div id="wrapper" class="carousel-inner">
 		<div class="item active relatiu">
 		  <div class="col-lg-12" style="background-image:url('./img/slider/concert2.jpg');background-position:50% 50%;background-size:100%;height:500px;"></div>
 		  <div class="col-lg-12 col-md-12" style="position:absolute;top:0px;">
-		  <div class="col-lg-12 col-md-12 titolslide"> WELCOME TO <a style="color:#44c44d;text-decoration:none;">JAH</a><a style="color:#f2ed54;text-decoration:none;">ARM</a><a style="color:#b22323;text-decoration:none;">ONY</a> </div>
+		  <div class="col-lg-12 col-md-12 titolslide"> WELCOME TO  <a style="color:#44c44d;text-decoration:none;">JAH</a><a style="color:#f2ed54;text-decoration:none;">ARM</a><a style="color:#b22323;text-decoration:none;">ONY</a> </div>
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 			totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
 			voluptas. </div>
@@ -91,15 +95,7 @@
 	  </div>
 
 	  <!-- Left and right controls -->
-	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left"></span>
-		<span class="sr-only">Previous</span>
-	  </a>
-	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right"></span>
-		<span class="sr-only">Next</span>
-	  </a>
-	</div>
+	 
 </div>
 
 

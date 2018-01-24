@@ -1,3 +1,12 @@
+function opacityControl(x){
+	$(x).eq(1).children().eq(0).css('opacity','0');
+	$(x).eq(1).children().eq(0).css('top','20px');
+	$(x).eq(1).children().eq(1).css('opacity','0');
+	$(x).eq(1).children().eq(1).css('top','100px');
+	$(x).eq(1).children().eq(2).css('opacity','0');
+	$(x).eq(1).children().eq(2).css('top','190px');
+}
+
 $("document").ready(function(){
 	$('.carousel').carousel({
 	  interval: 1000 * 7
@@ -17,15 +26,13 @@ $("document").ready(function(){
 	}
 	$("#wrapper").children().eq(0).addClass("active");
 	$("body").css('opacity','1');
-	
+	opacityControl($("#wrapper").children().eq(0).children());
+	$("#wrapper").children().eq(0).children().eq(1).children().eq(0).animate({ opacity: 1, top: "10px" }, 500);
+	$("#wrapper").children().eq(0).children().eq(1).children().eq(1).delay(500).animate({ opacity: 1, top: "90px" }, 500);
+	$("#wrapper").children().eq(0).children().eq(1).children().eq(2).delay(1000).animate({ opacity: 1, top: "180px" }, 600);
 
 		$('#myCarousel').bind('slide.bs.carousel', function (e) {
-			$(e.relatedTarget.children).eq(1).children().eq(0).css('opacity','0');
-			$(e.relatedTarget.children).eq(1).children().eq(0).css('top','20px');
-			$(e.relatedTarget.children).eq(1).children().eq(1).css('opacity','0');
-			$(e.relatedTarget.children).eq(1).children().eq(1).css('top','100px');
-			$(e.relatedTarget.children).eq(1).children().eq(2).css('opacity','0');
-			$(e.relatedTarget.children).eq(1).children().eq(2).css('top','190px');
+			opacityControl(e.relatedTarget.children);
 		});
 
 
