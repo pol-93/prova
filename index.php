@@ -16,6 +16,8 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<link rel="stylesheet" type="text/css"href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script src="./JS/code.js"></script>
 
 <link rel="stylesheet" type="text/css"href="./CSS/reset.css">
@@ -25,9 +27,9 @@
 <title> Jaharmony </title>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid" style="padding-left:0px;">
 
-<header style="display:block;z-index:1000;width:100%;">
+<header id="head" class="" style="width:100%;">
 	<div class="row">
 		<div class="col-lg-5 col-md-5 centrat"> 
 				<div class="col-lg-1 col-md-1 col-md-push-1 col-lg-push-1 logo"> 
@@ -72,7 +74,7 @@
 			totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
 			voluptas. </div>
 			
-			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide"> About Us </button></div>
+			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide" id="aboutusbutton"> About Us </button></div>
 		
 			
 			
@@ -100,7 +102,7 @@
 
 
 </div>
-<div class="row about separarpadding">
+<div class="row about separarpadding" id="aboutussection">
 	<div class="col-lg-6 col-md-7"  style="padding-left:45px;">
 		<div class="col-lg-12"> 
 			<h1 style="padding-left:0px;">About Us</h1>
@@ -121,8 +123,12 @@
 		<div style="border-radius:2px;height:350px;width:100%;background-image:url('./img/AboutUs.jpg');background-position: 50% 50%;background-size:cover;background-repeat:no-repeat;"></div>
 	</div>
 </div>
-<div class="row" style="margin-top:50px;">holaa</div>
-</div>
+<div class="row" style="margin-top:50px;height:1000px;">
 
+</div>
+</div>
+<div id="amunt">
+	<i class="fa fa-arrow-up fletxa" aria-hidden="true"></i>
+</div>
 </body>
 </html>

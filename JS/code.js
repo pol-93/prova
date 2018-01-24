@@ -1,3 +1,22 @@
+var doc = $(document);
+function scrolled() {
+   var threshold = doc.scrollTop() > 20;
+   var scrolltop = doc.scrollTop() > 500;
+   console.log(threshold);
+   if(threshold==true){
+	   $("#head").addClass("headerscroll")
+   }else{
+		$("#head").removeClass("headerscroll")
+   }
+   if(scrolltop==true){
+	  $("#amunt").fadeIn();
+   }else{
+	   $("#amunt").fadeOut();
+   }
+}
+$(window).on({ scroll: scrolled });
+
+
 function opacityControl(x){
 	$(x).eq(1).children().eq(0).css('opacity','0');
 	$(x).eq(1).children().eq(0).css('top','20px');
@@ -31,24 +50,25 @@ $("document").ready(function(){
 	$("#wrapper").children().eq(0).children().eq(1).children().eq(1).delay(500).animate({ opacity: 1, top: "90px" }, 500);
 	$("#wrapper").children().eq(0).children().eq(1).children().eq(2).delay(1000).animate({ opacity: 1, top: "180px" }, 600);
 
-		$('#myCarousel').bind('slide.bs.carousel', function (e) {
-			opacityControl(e.relatedTarget.children);
-		});
+	$('#myCarousel').bind('slide.bs.carousel', function (e) {
+		opacityControl(e.relatedTarget.children);
+	});
 
 
-		$('#myCarousel').bind('slid.bs.carousel', function (e) {
-			
-			$(e.relatedTarget.children).eq(1).children().eq(0).animate({ opacity: 1, top: "10px" }, 500);
-			$(e.relatedTarget.children).eq(1).children().eq(1).delay(500).animate({ opacity: 1, top: "90px" }, 500);
-			$(e.relatedTarget.children).eq(1).children().eq(2).delay(1000).animate({ opacity: 1, top: "180px" }, 600);
-		});
-
-		$('#myCarousel').bind('slide', function (e) {
-			alert('slide event3!');
-		});
-
-		$('#myCarousel').bind('slid', function (e) {
-			alert('slide event 2!');
-		});
+	$('#myCarousel').bind('slid.bs.carousel', function (e) {
+		$(e.relatedTarget.children).eq(1).children().eq(0).animate({ opacity: 1, top: "10px" }, 500);
+		$(e.relatedTarget.children).eq(1).children().eq(1).delay(500).animate({ opacity: 1, top: "90px" }, 500);
+		$(e.relatedTarget.children).eq(1).children().eq(2).delay(1000).animate({ opacity: 1, top: "180px" }, 600);
+	});
+	
+	$("#aboutusbutton").click(function(){
+		 $('html, body').animate({
+			scrollTop: ($("#aboutussection").offset().top)-50
+		  }, 2000);
+	});
+	
+	$("#amunt").click(function(){
+		$('html,body').animate({ scrollTop: 0 }, 'slow');
+	});
 	
 });

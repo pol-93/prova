@@ -1,0 +1,226 @@
+ /* Paleta Colors: */
+ /* Lime Green #44c44d */
+ /* Maize #f2ed54 */
+ /* FireBrick #b22323 */
+ /* Light Gray #d0e5d3 */
+ /* Black #070400 */
+
+ Body{
+	 min-width: 350px;
+ }
+
+
+
+ h1{
+	Font-family: big_noodle_titling;
+	color: #070400;
+	font-size: 40px;
+ }
+ 
+.centrat{
+	text-align:center;
+}
+
+.separarpadding{
+	padding-top:50px;
+}
+
+header{
+	position:fixed;
+	top:0px;
+    margin: 0px;
+	margin-top:10px;
+	z-index:20;
+    transition: all 3s;
+    &.scrolled {
+      background-color: gold;
+    }
+}
+
+
+.logo{
+	margin-left:25px;
+	background-image: url("../img/logo.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position: 50% 50%;
+	height:50px;
+}
+
+.posicionar{
+	display:block;
+	position:absolute;
+	top: 13px;
+	left: 42px;
+}
+
+/* Menu Web */
+
+.menupartdreta{
+    position: relative;
+    float: right;
+    width: 600px;
+    margin-right: 50px;
+}
+.menu{
+	position:fixed;
+	top:-7px;
+	margin:28px;
+	cursor:pointer;
+	font-family: TheLightFont;
+	font-size: 20px;
+}
+
+.menu>li{
+	float:left;
+}
+.menu>li>a{	
+		display:block;
+		margin: 10px 15px;
+		padding-bottom:8px;
+		color:#d0e5d3;
+		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;		
+}
+
+.menu>li>a:hover{
+	border-bottom: 1px solid #f2ed54;
+	text-decoration:none;
+}
+
+.menu li ul{
+	display: none;
+	top: 55px;
+	left:127px;
+	position: absolute;
+	min-width: 140px;
+	text-align: left;
+	background-color:black;
+	font-size: 18px;
+	border-left: 2px solid #b22323;
+}
+
+.menu>li>ul>li>a{
+	color:#d0e5d3;
+}
+
+.menu>li>ul>li>a:hover{
+	text-decoration:none;
+}
+
+.menu>li>ul>li{
+	margin:0px !important;
+	padding:10px;	
+	background-color:#070400;
+}
+
+.menu>li>ul>li:hover{
+	background-color:#b22323;
+}
+
+.menu>li:nth-child(5){
+	padding-left:35px;
+	padding-top:7px;
+}
+
+.menu>li:nth-child(6){
+	padding-left:15px;
+	padding-top:7px;
+}
+
+/* OPCIO Sub Menu */
+
+.menu li:hover > ul{
+	display:block;
+}
+
+.menu>li:nth-child(2){
+	padding-bottom:15px;
+}
+
+.menu li ul li{
+	margin:10px;
+	position:relative;
+}
+
+/* fi menu web */
+
+/* Carrousel */
+.separar{
+	margin-top:20px;
+}
+
+.titolslide{
+	position:absolute;
+	top:20px;
+	font-size:70px;
+	font-family: big_noodle_titling;
+	color: #FBFBFB;
+	text-align:center;
+}
+
+.descripcioslide{
+	position:absolute;
+	top:100px;
+	font-size:18px;
+	font-family: CaviarDreams;
+	color: #FBFBFB;
+	text-align:center;
+}
+.posicioboto{
+	position:absolute;
+	margin-top:5px;
+	top:190px;
+	text-align:center;
+}
+
+.botoslide{
+	width: 200px;
+	padding:10px;
+	border-radius:4px;
+	border: 1px solid #d0e5d3;
+	color: #d0e5d3;
+	background-color: #070400;
+	font-family: big_noodle_titling_oblique;
+	font-size:20px;
+	font-weight:bolder;
+	transition:  all 1s ease-in-out;
+}
+
+.botoslide:hover{
+	background-color: #b22323;
+}
+
+.carousel-indicators .active{
+    background-color: #44c44d !important;
+	border:none !important;
+}
+
+.carousel-indicators li{
+	background-color: #d0e5d3 !important;
+	border:none !important;
+}
+
+/* Fi Carrousel */
+
+/* Inici About US */
+
+.about{
+	background-color:#FFFFFF;
+}
+
+hr {	
+    background-image: linear-gradient(90deg, #44c44d, #f2ed54, #b22323, transparent);
+    border: 0;
+	height: 3px;
+	width: 65px;
+	float: left;
+}
+
+.descripcioaboutus{
+	font-family: CaviarDreams;
+	color:#434345;
+	font-size:15px;
+	line-height:25px;
+}
