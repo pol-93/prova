@@ -100,7 +100,29 @@
 
 
 </div>
-
+<div class="row about separarpadding">
+	<div class="col-lg-6 col-md-7"  style="padding-left:45px;">
+		<div class="col-lg-12"> 
+			<h1 style="padding-left:0px;">About Us</h1>
+		</div>
+		<div class="col-lg-12 col-md-12"> 
+			<hr/>
+		</div>
+		<div class="col-lg-12 col-md-12 descripcioaboutus">
+			At vero eos et accu samus et iusto odio dignis simos ducimus qui blandi tiis praesentium voluptatum del eniti atque corrupti quos dolo res et quas
+			molestias excepturi sint occa ecati cupidi tate non provident, si milique sunt in culpa qui officia dese runt mollitia animi, id est lab orum et dolorum fuga.
+			Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+			maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Tempo ribus autem quib usdam et aut offi ciis debitis aut rerum
+			necessi tatibus saepe eveniet ut et vol uptates repu diandae sint et mol estiae non recu sandae. tinctio. Nam libero tempore, cum soluta nobis est eligendi 
+			optio cumque nihil impedit quo minus id.
+		</div> 
+	</div>
+	<div class="col-lg-6 col-md-5" style="padding-right:45px;padding-top:20px;">
+		<div style="border-radius:2px;height:350px;width:100%;background-image:url('./img/AboutUs.jpg');background-position: 50% 50%;background-size:cover;background-repeat:no-repeat;"></div>
+	</div>
+</div>
+<div class="row" style="margin-top:50px;">holaa</div>
+</div>
 
 </body>
 </html>

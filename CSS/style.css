@@ -9,8 +9,18 @@
 	 min-width: 350px;
  }
  
+ h1{
+	Font-family: big_noodle_titling;
+	color: #070400;
+	font-size: 40px;
+ }
+ 
 .centrat{
 	text-align:center;
+}
+
+.separarpadding{
+	padding-top:50px;
 }
 
 header{
@@ -46,11 +56,11 @@ header{
 }
 .menu{
 	position:fixed;
-	top:-10px;
+	top:-7px;
 	margin:28px;
 	cursor:pointer;
 	font-family: TheLightFont;Helvetica;
-	font-size: 22px;
+	font-size: 20px;
 }
 
 .menu>li{
@@ -128,6 +138,7 @@ header{
 
 /* fi menu web */
 
+/* Carrousel */
 .separar{
 	margin-top:20px;
 }
@@ -181,4 +192,27 @@ header{
 .carousel-indicators li{
 	background-color: #d0e5d3 !important;
 	border:none !important;
+}
+
+/* Fi Carrousel */
+
+/* Inici About US */
+
+.about{
+	background-color:#FFFFFF;
+}
+
+hr {	
+    background-image: linear-gradient(90deg, #44c44d, #f2ed54, #b22323, transparent);
+    border: 0;
+	height: 3px;
+	width: 65px;
+	float: left;
+}
+
+.descripcioaboutus{
+	font-family: CaviarDreams;
+	color:#434345;
+	font-size:15px;
+	line-height:25px;
 }
