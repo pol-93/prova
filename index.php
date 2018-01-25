@@ -27,9 +27,9 @@
 <title> Jaharmony </title>
 </head>
 <body>
-<div class="container-fluid" style="padding-left:0px;">
+<div class="container-fluid">
 
-<header id="head" class="" style="width:100%;">
+<header id="head">
 	<div class="row">
 		<div class="col-lg-5 col-md-5 centrat"> 
 				<div class="col-lg-1 col-md-1 col-md-push-1 col-lg-push-1 logo"> 
@@ -67,7 +67,7 @@
 	  <!-- Wrapper for slides -->
 	  <div id="wrapper" class="carousel-inner">
 		<div class="item active relatiu">
-		  <div class="col-lg-12" style="background-image:url('./img/slider/concert2.jpg');background-position:50% 50%;background-size:100%;height:500px;"></div>
+		  <div class="col-lg-12 imatgesfons" style="background-image:url('./img/slider/concert2.jpg');"></div>
 		  <div class="col-lg-12 col-md-12" style="position:absolute;top:0px;">
 		  <div class="col-lg-12 col-md-12 titolslide"> WELCOME TO  <a style="color:#44c44d;text-decoration:none;">JAH</a><a style="color:#f2ed54;text-decoration:none;">ARM</a><a style="color:#b22323;text-decoration:none;">ONY</a> </div>
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
@@ -81,7 +81,7 @@
 		</div>
 		</div>
 		<div class="item relatiu">
-		  <div class="col-lg-12" style="background-image:url('./img/slider/concert1.jpg');background-position:50% 50%;background-size:100%;height:500px;"></div>
+		  <div class="col-lg-12 imatgesfons" style="background-image:url('./img/slider/concert1.jpg');"></div>
 		  <div class="col-lg-12 col-md-12" style="position:absolute;top:0px;">
 		  <div class="col-lg-12 col-md-12 titolslide"> CONCERT IN GITANA FOOD CARAVAN </div>
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
@@ -120,11 +120,14 @@
 		</div> 
 	</div>
 	<div class="col-lg-6 col-md-5" style="padding-right:45px;padding-top:20px;">
-		<div style="border-radius:2px;height:350px;width:100%;background-image:url('./img/AboutUs.jpg');background-position: 50% 50%;background-size:cover;background-repeat:no-repeat;"></div>
+		<div class="imatgesfons" style="border-radius:2px;height:350px;width:100%;background-image:url('./img/AboutUs.jpg');"></div>
 	</div>
 </div>
-<div class="row" style="margin-top:50px;height:1000px;">
-
+<div class="row" style="margin-top:50px;height:1000px;text-align:center;background-color:#F5F5F5;">
+		<div style="border:1px solid black;width:260px;display:inline-block;text-align:center;margin:1em;">boom</div>
+		<div style="border:1px solid black;width:260px;display:inline-block;text-align:center;margin:1em;">boom</div>
+		<div style="border:1px solid black;width:260px;display:inline-block;text-align:center;margin:1em;">boom</div>
+		<div style="border:1px solid black;width:260px;display:inline-block;text-align:center;margin:1em;">boom</div>
 </div>
 </div>
 <div id="amunt">

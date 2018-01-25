@@ -19,6 +19,7 @@ h1 {
 .separarpadding {
   padding-top: 50px;
 }
+
 header {
   position: fixed;
   top: 0px;
@@ -26,6 +27,8 @@ header {
   margin-top: 0px;
   z-index: 20;
   transition: all 1s;
+  margin-left:-15px;
+  width:100%;
 }
 
 .headerscroll {
@@ -52,7 +55,6 @@ header {
   position: relative;
   float: right;
   width: 600px;
-  margin-right: 50px;
 }
 .menu {
   position: fixed;
@@ -62,6 +64,7 @@ header {
   font-family: TheLightFont;
   font-size: 20px;
 }
+
 .menu > li {
   float: left;
 }
@@ -79,15 +82,15 @@ header {
   text-decoration: none;
 }
 .menu li ul {
-  display: none;
-  top: 55px;
-  left: 127px;
-  position: absolute;
-  min-width: 140px;
-  text-align: left;
-  background-color: black;
-  font-size: 18px;
-  border-left: 2px solid #b22323;
+	display: none;
+	top: 40px;
+	left: 120px;
+	position: absolute;
+	min-width: 140px;
+	text-align: left;
+	background-color: black;
+	font-size: 18px;
+	border-left: 2px solid #b22323;
 }
 .menu > li > ul > li > a {
   color: #d0e5d3;
@@ -172,6 +175,13 @@ header {
   background-color: #d0e5d3 !important;
   border: none !important;
 }
+
+.imatgesfons{
+	background-position:50% 50%;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
 /* Fi Carrousel */
 /* Inici About US */
 .about {
