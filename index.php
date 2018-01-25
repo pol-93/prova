@@ -73,11 +73,7 @@
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 			totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
 			voluptas. </div>
-			
 			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide" id="aboutusbutton"> About Us </button></div>
-		
-			
-			
 		</div>
 		</div>
 		<div class="item relatiu">
@@ -87,20 +83,12 @@
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
 			cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor 
 			aut officiis. </div>
-			
 			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide"> Concerts </button></div>
-		
-			
-			
 			</div>
 		</div>
 	  </div>
-
 	  <!-- Left and right controls -->
-	 
 </div>
-
-
 </div>
 <div class="row about separarpadding" id="aboutussection">
 	<div class="col-lg-6 col-md-7"  style="padding-left:45px;">
@@ -123,11 +111,27 @@
 		<div class="imatgesfons" style="border-radius:2px;height:350px;width:100%;background-image:url('./img/AboutUs.jpg');"></div>
 	</div>
 </div>
-<div class="row" style="margin-top:50px;height:1000px;text-align:center;background-color:#F5F5F5;">
-		<div style="border:1px solid black;width:260px;display:inline-block;text-align:center;margin:1em;">boom</div>
-		<div style="border:1px solid black;width:260px;display:inline-block;text-align:center;margin:1em;">boom</div>
-		<div style="border:1px solid black;width:260px;display:inline-block;text-align:center;margin:1em;">boom</div>
-		<div style="border:1px solid black;width:260px;display:inline-block;text-align:center;margin:1em;">boom</div>
+<div class="row separarmes">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  bandtitol">
+			<div> BAND </div>
+		</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<hr style="float:none;"/>
+		</div>
+	<div class="band">
+			<div class="imatgesfons relatiu" style="height:300px;width:260px;margin:1em;background-image:url('./img/band/hal.jpg');display:inline-block;">
+				<div class="Artists"> Albert Cerdan  <a style="txt-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
+			</div>
+			<div class="imatgesfons relatiu" style="height:300px;width:260px;margin:1em;background-image:url('./img/band/merme.jpg');display:inline-block;">
+				<div class="Artists"> Dani Merme <a style="txt-decoration:none;font-size:16px;color:#b22323;">Guitarist</a></div>
+			</div>
+			<div class="imatgesfons relatiu" style="height:300px;width:260px;margin:1em;background-image:url('./img/band/nil.jpg');display:inline-block;">
+				<div class="Artists"> Nil Couto <a style="txt-decoration:none;font-size:16px;color:#b22323;">Bassist</a> </div>
+			</div>
+			<div class="imatgesfons relatiu" style="height:300px;width:260px;margin:1em;background-image:url('./img/band/adri.jpg');display:inline-block;">
+				<div class="Artists"> Adria Lloret <a style="txt-decoration:none;font-size:16px;color:#b22323;">Drummer</a></div>
+			</div>
+	</div>
 </div>
 </div>
 <div id="amunt">

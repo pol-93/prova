@@ -36,6 +36,10 @@ header {
   margin-top:0px;
 }
 
+.relatiu{
+	position:relative;
+}
+
 .logo {
   margin-left: 25px;
   background-image: url("../img/logo.png");
@@ -130,6 +134,11 @@ header {
 .separar {
   margin-top: 20px;
 }
+
+.separarmes {
+  margin-top: 50px;
+}
+
 .titolslide {
   position: absolute;
   top: 20px;
@@ -167,10 +176,17 @@ header {
 .botoslide:hover {
   background-color: #b22323;
 }
-.carousel-indicators .active {
+.carousel-indicators li:nth-child(1), .active {
   background-color: #44c44d !important;
   border: none !important;
 }
+
+.carousel-indicators li:nth-child(2), .active {
+  background-color: #f2ed54 !important;
+  border: none !important;
+}
+
+
 .carousel-indicators li {
   background-color: #d0e5d3 !important;
   border: none !important;
@@ -228,3 +244,31 @@ hr {
 	left:7px;
 	font-size:25px;
 }
+
+/* Band */
+
+.bandtitol{
+	margin-top:20px;
+	background-color:#F5F5F5;
+	color:#070400;
+	font-family: big_noodle_titling;
+	text-align:center;
+	padding-top:35px;
+	font-size:40px;
+}
+
+.band{
+	text-align:center;
+	background-color:#F5F5F5;
+}
+
+.Artists{
+	position: absolute;
+	bottom: -10px;
+	color: #1e1e1e;
+	width: 100%;
+	font-size: 25px;
+	font-family: CaviarDreams;
+}
+
+/* Fi Band */
