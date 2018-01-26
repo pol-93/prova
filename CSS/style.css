@@ -177,7 +177,7 @@ header {
   background-color: #b22323;
 }
 .carousel-indicators li:nth-child(1), .active {
-  background-color: #44c44d !important;
+  background-color: #b22323 !important;
   border: none !important;
 }
 
@@ -186,6 +186,10 @@ header {
   border: none !important;
 }
 
+.carousel-indicators li:nth-child(3), .active {
+  background-color: #44c44d !important;
+  border: none !important;
+}
 
 .carousel-indicators li {
   background-color: #d0e5d3 !important;
@@ -196,6 +200,31 @@ header {
 	background-position:50% 50%;
 	background-size:100%;
 	background-repeat:no-repeat;
+}
+
+.video-container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+  
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 /* Fi Carrousel */
@@ -260,15 +289,96 @@ hr {
 .band{
 	text-align:center;
 	background-color:#F5F5F5;
+	height:530px;
 }
 
+.imatgeBand .box-member-wrap:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.imatgeBand .box-member-wrap .box-member-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.imatgeBand .box-member-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 78%;
+    z-index: 2;
+    transition: .3s;
+}
+
+.imatgeBand .box-member-wrap:hover .box-member-caption .list-inline li {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.imatgeBand .box-member-wrap .box-member-caption .list-inline li {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+    transition: .35s all ease;
+    opacity: 0;
+}
+
+.icon-xs.icon-rect, .icon-xs.icon-circle, .icon-xs.icon-rounded {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 21px;
+}
+
+a.icon {
+    transition: .3s;
+}
+
+
 .Artists{
-	position: absolute;
-	bottom: -10px;
 	color: #1e1e1e;
 	width: 100%;
 	font-size: 25px;
+	font-family: TheLightFont;
+}
+
+.ArtistDescription{
+	color: #1e1e1e;
+	width: 100%;
+	font-size: 16px;
 	font-family: CaviarDreams;
 }
 
+
+.imatgeBand{
+	position:relative;
+	width:260px;
+	margin:5px;
+	display:inline-block;
+}
+
+.child{
+	background-color:black;
+	opacity:0;
+}
 /* Fi Band */

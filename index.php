@@ -63,18 +63,34 @@
 	<ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>  
+	  <li data-target="#myCarousel" data-slide-to="2"></li>  
     </ol>
 	  <!-- Wrapper for slides -->
 	  <div id="wrapper" class="carousel-inner">
 		<div class="item active relatiu">
 		  <div class="col-lg-12 imatgesfons" style="background-image:url('./img/slider/concert2.jpg');"></div>
 		  <div class="col-lg-12 col-md-12" style="position:absolute;top:0px;">
-		  <div class="col-lg-12 col-md-12 titolslide"> WELCOME TO  <a style="color:#44c44d;text-decoration:none;">JAH</a><a style="color:#f2ed54;text-decoration:none;">ARM</a><a style="color:#b22323;text-decoration:none;">ONY</a> </div>
+		  <div class="col-lg-12 col-md-12 titolslide"> WELCOME TO  <a style="color:#b22323;text-decoration:none;">JAH</a><a style="color:#f2ed54;text-decoration:none;">ARM</a><a style="color:#44c44d;text-decoration:none;">ONY</a> </div>
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 			totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
 			voluptas. </div>
 			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide" id="aboutusbutton"> About Us </button></div>
 		</div>
+		</div>
+		<div class="item relatiu">
+		<div class="video-container">
+			  <video autoplay loop width="1280" height="720">
+				 <source src="./img/slider/video.mov" type="video/mov"/>
+				 <source src="./img/slider/video.mp4" type="video/mp4" />
+				 Your browser does not support the video tag.
+			  </video>
+		  </div>
+		  <div class="col-lg-12 col-md-12" style="position:absolute;top:0px;">
+		  <div class="col-lg-12 col-md-12 titolslide"> GET TO KNOW OUR BAND </div>
+			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide">. Itaque earum rerum hic tenetur a 
+			sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. </div>
+			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide"> Band </button></div>
+			</div>
 		</div>
 		<div class="item relatiu">
 		  <div class="col-lg-12 imatgesfons" style="background-image:url('./img/slider/concert1.jpg');"></div>
@@ -86,6 +102,9 @@
 			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide"> Concerts </button></div>
 			</div>
 		</div>
+		
+		   
+		
 	  </div>
 	  <!-- Left and right controls -->
 </div>
@@ -115,21 +134,45 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  bandtitol">
 			<div> BAND </div>
 		</div>
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px;">
 			<hr style="float:none;"/>
 		</div>
-	<div class="band">
-			<div class="imatgesfons relatiu" style="height:300px;width:260px;margin:1em;background-image:url('./img/band/hal.jpg');display:inline-block;">
+	<div class="band visible-lg">
+			<div class="imatgeBand">
+				<div class="imatgesfons relatiu" style="background-image:url('./img/band/hal.jpg');height:265px;"></div>
 				<div class="Artists"> Albert Cerdan  <a style="txt-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
+				<div class="ArtistDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
+				<div class="box-member-wrap">
+				<div class="box-member-caption">
+				<div class="box-member-caption-inner">
+					<ul class="list-inline list-inline-xs">
+					      <li><a class="icon fa fa-facebook icon-xs icon-circle icon-darkest-filled" href="#"></a></li>
+						  <li><a class="icon fa fa-twitter icon-xs icon-circle icon-darkest-filled" href="#"></a></li>
+						  <li><a class="icon fa fa-google-plus icon-xs icon-circle icon-darkest-filled" href="#"></a></li>
+					</ul>
+				</div>
+				</div>
+				</div>
 			</div>
-			<div class="imatgesfons relatiu" style="height:300px;width:260px;margin:1em;background-image:url('./img/band/merme.jpg');display:inline-block;">
+			<div class="imatgeBand">
+				<div class="imatgesfons relatiu" style="background-image:url('./img/band/merme.jpg');height:265px;">
+				</div>
 				<div class="Artists"> Dani Merme <a style="txt-decoration:none;font-size:16px;color:#b22323;">Guitarist</a></div>
+				<div class="ArtistDescription">Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.</div>
+				<button class="child" style="position:absolute;">  BIO ! </button>
 			</div>
-			<div class="imatgesfons relatiu" style="height:300px;width:260px;margin:1em;background-image:url('./img/band/nil.jpg');display:inline-block;">
+			<div class="imatgeBand">
+				<div class="imatgesfons relatiu" style="background-image:url('./img/band/nil.jpg');height:265px;">
+				</div>	
 				<div class="Artists"> Nil Couto <a style="txt-decoration:none;font-size:16px;color:#b22323;">Bassist</a> </div>
+				<div class="ArtistDescription">Duis aute irure dolor in reprehenderit in volulore eu fugiat nulla pariatur.</div>
+				<button class="child" style="position:absolute;">  BIO ! </button>
 			</div>
-			<div class="imatgesfons relatiu" style="height:300px;width:260px;margin:1em;background-image:url('./img/band/adri.jpg');display:inline-block;">
+			<div class="imatgeBand">
+				<div class="imatgesfons relatiu" style="background-image:url('./img/band/adri.jpg');height:265px;"></div>
 				<div class="Artists"> Adria Lloret <a style="txt-decoration:none;font-size:16px;color:#b22323;">Drummer</a></div>
+				<div class="ArtistDescription">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				<button class="child" style="position:absolute;">  BIO ! </button>
 			</div>
 	</div>
 </div>

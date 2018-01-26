@@ -1,3 +1,4 @@
+var x = 0;
 var doc = $(document);
 function scrolled() {
    var threshold = doc.scrollTop() > 20;
