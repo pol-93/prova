@@ -292,11 +292,11 @@ hr {
 	height:530px;
 }
 
-.imatgeBand .box-member-wrap:hover {
+.imatgeBand .caixa:hover {
     background: rgba(255, 255, 255, 0.7);
 }
 
-.imatgeBand .box-member-wrap .box-member-caption {
+.imatgeBand .caixa .caixaDintre {
     position: absolute;
     top: 0;
     left: 0;
@@ -319,7 +319,7 @@ hr {
     backface-visibility: hidden;
 }
 
-.imatgeBand .box-member-wrap {
+.imatgeBand .caixa {
     position: absolute;
     top: 0;
     left: 0;
@@ -330,28 +330,17 @@ hr {
     transition: .3s;
 }
 
-.imatgeBand .box-member-wrap:hover .box-member-caption .list-inline li {
+.imatgeBand .caixa:hover .caixaDintre .boto-inline button {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
 }
 
-.imatgeBand .box-member-wrap .box-member-caption .list-inline li {
+.imatgeBand .caixa .caixaDintre .boto-inline button {
     -webkit-transform: translateY(40px);
     transform: translateY(40px);
     transition: .35s all ease;
     opacity: 0;
-}
-
-.icon-xs.icon-rect, .icon-xs.icon-circle, .icon-xs.icon-rounded {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 21px;
-}
-
-a.icon {
-    transition: .3s;
 }
 
 
@@ -360,6 +349,7 @@ a.icon {
 	width: 100%;
 	font-size: 25px;
 	font-family: TheLightFont;
+	margin-top:5px;
 }
 
 .ArtistDescription{
@@ -367,6 +357,7 @@ a.icon {
 	width: 100%;
 	font-size: 16px;
 	font-family: CaviarDreams;
+	margin-top:5px;
 }
 
 
