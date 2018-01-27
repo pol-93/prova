@@ -6,7 +6,7 @@
 /* Light Gray #d0e5d3 */
 /* Black #070400 */
 Body {
-  min-width: 350px;
+  min-width: 320px;
 }
 h1 {
   Font-family: big_noodle_titling;
@@ -53,6 +53,36 @@ header {
   position: absolute;
   top: 13px;
   left: 42px;
+}
+
+.botomenu{
+	border-radius:5px;
+	color:white;
+	width:31px;
+	height:30px;
+	border:2px solid white;
+	top:10px;
+	position:absolute;
+}
+
+.linea{
+	border-radius:5px;
+	border:1px solid white;
+	width:17px; 
+	height:2px; 
+	left:5px;
+	position:absolute;
+}
+
+.logoxs{
+	float:right;
+	margin-right:10px;
+	margin-top:13px;
+}
+
+.botomenu:hover{
+	background-color:#7f7f7f;
+	cursor:pointer;
 }
 /* Menu Web */
 .menupartdreta {

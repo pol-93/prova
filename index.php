@@ -2,7 +2,7 @@
 <html>
 <head>
 <!-- Correcció viewport versions movils -->
-<meta name="viewport" content="width=device-width, initial-scale=0.9 user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=0.8 user-scalable=no">
 
 <!-- JQuery --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -31,14 +31,14 @@
 
 <header id="head">
 	<div class="row">
-		<div class="col-lg-5 col-md-5 centrat"> 
-				<div class="col-lg-1 col-md-1 col-md-push-1 col-lg-push-1 logo"> 
+		<div class="col-lg-5 col-md-5 hidden-xs hidden-sm centrat"> 
+				<div class="col-lg-1 col-md-1 hidden-xs hidden-sm col-md-push-1 col-lg-push-1 logo"> 
 				</div>
-				<div class="col-lg-10 col-md-1" style="position:relative;">
+				<div class="col-lg-10 col-md-1 col-sm-1 col-xs-1" style="position:relative;">
 					<img class="posicionar" src="./img/titol.png"></img>
 				</div>
 		</div>
-		<div class="menupartdreta"> 
+		<div class="menupartdreta hidden-xs hidden-sm"> 
 			<ul class="menu">
 				<li><a>About us</a></li>
 				<li><a>Band</a>
@@ -55,10 +55,24 @@
 				<li><img src="./img/instagram.png"></img></li>
 			</ul>
 		</div>		
+	<div class="col-xs-12 col-sm-12 hidden-lg hidden-md">
+		<div class="col-sm-1 col-xs-1 relatiu"> 
+			<div class="botomenu">
+				<div class="linea" style="top:8px;"></div>
+				<div class="linea" style="top:12px;"></div>
+				<div class="linea" style="top:16px;"></div>
+			</div>
+		</div>
+		<div class="col-xs-1 col-sm-1 hidden-lg hidden-md col-xs-push-3 col-sm-push-3 logo" style="width:50px;"> 
+		</div>
+			<div class="hidden-md hidden-lg logoxs"><img src="./img/facebook.png"></img></div>
+			<div class="hidden-md hidden-lg logoxs"><img src="./img/instagram.png"></img></div>
+		</div>
 	</div>
+	
 </header>
 
-<div class="row hidden-xs hidden-sm">
+<div class="row">
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -66,41 +80,44 @@
 	  <li data-target="#myCarousel" data-slide-to="2"></li>  
     </ol>
 	  <!-- Wrapper for slides -->
-	  <div id="wrapper" class="carousel-inner">
+	  <div id="wrapper" class="carousel-inner visible-xs visible-sm visible-md visible-lg">
 		<div class="item active relatiu">
-		  <div class="col-lg-12 imatgesfons" style="background-image:url('./img/slider/concert2.jpg');"></div>
-		  <div class="col-lg-12 col-md-12" style="position:absolute;top:0px;">
-		  <div class="col-lg-12 col-md-12 titolslide"> WELCOME TO  <a style="color:#b22323;text-decoration:none;">JAH</a><a style="color:#f2ed54;text-decoration:none;">ARM</a><a style="color:#44c44d;text-decoration:none;">ONY</a> </div>
-			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+		  <div class="col-lg-12 col-md-12 imatgesfons hidden-xs hidden-sm" style="background-image:url('./img/slider/concert2.jpg');"></div>
+		  <div class="col-sm-12 col-xs-12 imatgesfons hidden-lg hidden-md" style="background-image:url('./img/slider/concert1xs.jpg');"></div>
+		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="position:absolute;top:0px;padding:0px;">
+		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 titolslide"> WELCOME TO  <a style="color:#b22323;text-decoration:none;">JAH</a><a style="color:#f2ed54;text-decoration:none;">ARM</a><a style="color:#44c44d;text-decoration:none;">ONY</a> </div>
+			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide hidden-xs"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 			totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
 			voluptas. </div>
-			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide" id="aboutusbutton"> About Us </button></div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide" id="aboutusbutton"> About Us </button></div>
 		</div>
 		</div>
 		<div class="item relatiu">
-		<div class="video-container">
+		<div class="video-container hidden-xs hidden-sm">
 			  <video autoplay loop width="1280" height="720">
 				 <source src="./img/slider/video.mov" type="video/mov"/>
 				 <source src="./img/slider/video.mp4" type="video/mp4" />
 				 Your browser does not support the video tag.
 			  </video>
 		  </div>
-		  <div class="col-lg-12 col-md-12" style="position:absolute;top:0px;">
-		  <div class="col-lg-12 col-md-12 titolslide"> GET TO KNOW OUR BAND </div>
-			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide">. Itaque earum rerum hic tenetur a 
+		  <div class="col-sm-12 col-xs-12 imatgesfons hidden-lg hidden-md" style="background-image:url('./img/slider/concert2xs.jpg');"></div>
+		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="position:absolute;top:0px;padding:0px;">
+		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 titolslide"> GET TO KNOW OUR BAND </div>
+			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide hidden-xs">. Itaque earum rerum hic tenetur a 
 			sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. </div>
-			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide"> Band </button></div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide"> Band </button></div>
 			</div>
 		</div>
 		<div class="item relatiu">
-		  <div class="col-lg-12 imatgesfons" style="background-image:url('./img/slider/concert1.jpg');"></div>
-		  <div class="col-lg-12 col-md-12" style="position:absolute;top:0px;">
-		  <div class="col-lg-12 col-md-12 titolslide"> CONCERT IN GITANA FOOD CARAVAN </div>
-			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
+		  <div class="col-lg-12 col-md-12 imatgesfons hidden-xs hidden-sm" style="background-image:url('./img/slider/concert1.jpg');"></div>
+		  <div class="col-sm-12 col-xs-12 imatgesfons hidden-lg hidden-md" style="background-image:url('./img/slider/concert3xs.jpg');"></div>
+		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="position:absolute;top:0px;padding:0px;">
+		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 titolslide"> GITANA FOOD CARAVAN </div>
+			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide hidden-xs">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
 			cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor 
 			aut officiis. </div>
-			<div class="col-lg-12 col-md-12 posicioboto" id="provemaqui"><button class="botoslide"> Concerts </button></div>
-			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide"> Concerts </button></div>
+			</div>	
 		</div>
 		
 		   
@@ -110,14 +127,14 @@
 </div>
 </div>
 <div class="row about separarpadding" id="aboutussection">
-	<div class="col-lg-6 col-md-7"  style="padding-left:45px;">
-		<div class="col-lg-12"> 
+	<div class="col-lg-6 col-md-7 col-sm-12"  style="padding-left:45px;">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
 			<h1 style="padding-left:0px;">About Us</h1>
 		</div>
-		<div class="col-lg-12 col-md-12"> 
+		<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12"> 
 			<hr/>
 		</div>
-		<div class="col-lg-12 col-md-12 descripcioaboutus">
+		<div class="col-lg-12 col-md-12 col-sm-12 descripcioaboutus">
 			At vero eos et accu samus et iusto odio dignis simos ducimus qui blandi tiis praesentium voluptatum del eniti atque corrupti quos dolo res et quas
 			molestias excepturi sint occa ecati cupidi tate non provident, si milique sunt in culpa qui officia dese runt mollitia animi, id est lab orum et dolorum fuga.
 			Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
@@ -126,7 +143,7 @@
 			optio cumque nihil impedit quo minus id.
 		</div> 
 	</div>
-	<div class="col-lg-6 col-md-5" style="padding-right:45px;padding-top:20px;">
+	<div class="col-lg-6 col-md-5 col-sm-12 hidden-xs" style="padding:45px;">
 		<div class="imatgesfons" style="border-radius:2px;height:350px;width:100%;background-image:url('./img/AboutUs.jpg');"></div>
 	</div>
 </div>
