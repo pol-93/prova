@@ -289,8 +289,8 @@ hr {
 .band{
 	text-align:center;
 	background-color:#F5F5F5;
-	height:530px;
 }
+
 
 .imatgeBand .caixa:hover {
     background: rgba(255, 255, 255, 0.7);
@@ -350,6 +350,12 @@ hr {
 	font-size: 25px;
 	font-family: TheLightFont;
 	margin-top:5px;
+	transition: all 0.5s ease-in-out;
+}
+
+.Artists:hover{
+	color:#b22323;
+	cursor:pointer;
 }
 
 .ArtistDescription{
@@ -364,9 +370,16 @@ hr {
 .imatgeBand{
 	position:relative;
 	width:260px;
-	margin:5px;
+	margin:15px;
 	display:inline-block;
 }
+
+/* .imatgeBand-md{ */
+	/* position:relative; */
+	/* width:260px; */
+	/* margin:15px; */
+	/* display:inline-block; */
+/* } */
 
 .child{
 	background-color:black;
