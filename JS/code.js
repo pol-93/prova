@@ -14,7 +14,11 @@ function scrolled() {
    }else{
 	   $("#amunt").fadeOut();
    }
+   if($("#menupermobils").css("left")=="0px"){
+		close();
+   }
 }
+
 $(window).on({ scroll: scrolled });
 
 
@@ -25,6 +29,16 @@ function opacityControl(x){
 	$(x).eq(2).children().eq(1).css('top','100px');
 	$(x).eq(2).children().eq(2).css('opacity','0');
 	$(x).eq(2).children().eq(2).css('top','190px');
+}
+
+function close(){
+		$("body").children(':not(#menupermobils)').fadeTo("slow", 1, function() {});
+	$( "#menupermobils" ).animate({
+		opacity: 0,
+		left: "-250px",
+	  }, 500, function() {
+		// Animation complete.
+	  });
 }
 
 $("document").ready(function(){
@@ -71,6 +85,28 @@ $("document").ready(function(){
 	
 	$("#amunt").click(function(){
 		$('html,body').animate({ scrollTop: 0 }, 'slow');
+	});
+	
+	$("#botomenuxs").click(function(){
+		  $("body").children(':not(#menupermobils)').fadeTo("slow", 0.5, function() {});
+		  $( "#menupermobils" ).animate({
+			opacity: 1,
+			left: "0px",
+		  }, 500, function() {
+			// Animation complete.
+		  });
+		
+		
+	});
+	
+	$("body").children().not("#menupermobils").click(function(){
+		if($("#menupermobils").css("left")=="0px"){
+			close();
+		}
+	});
+	
+	$("#tancarxs").click(function(){
+		close();
 	});
 	
 });

@@ -27,7 +27,10 @@
 <title> Jaharmony </title>
 </head>
 <body>
+
 <div class="container-fluid">
+
+
 
 <header id="head">
 	<div class="row">
@@ -57,7 +60,7 @@
 		</div>		
 	<div class="col-xs-12 col-sm-12 hidden-lg hidden-md">
 		<div class="col-sm-1 col-xs-1 relatiu"> 
-			<div class="botomenu">
+			<div class="botomenu" id="botomenuxs">
 				<div class="linea" style="top:8px;"></div>
 				<div class="linea" style="top:12px;"></div>
 				<div class="linea" style="top:16px;"></div>
@@ -143,7 +146,7 @@
 			optio cumque nihil impedit quo minus id.
 		</div> 
 	</div>
-	<div class="col-lg-6 col-md-5 col-sm-12 hidden-xs" style="padding:45px;">
+	<div class="col-lg-6 col-md-5 col-sm-12 hidden-xs" style="padding:20px;">
 		<div class="imatgesfons" style="border-radius:2px;height:350px;width:100%;background-image:url('./img/AboutUs.jpg');"></div>
 	</div>
 </div>
@@ -349,6 +352,23 @@
 	</div>
 </div>
 </div>
+
+<div id="menupermobils" style="padding-bottom:50px;">
+	<div class="relative desplegabledalt">
+	<div class="bototancar"> <i class="fa fa-times" id="tancarxs" aria-hidden="true"></i> </div>
+	<div class="logo" style="width:50px;float:right;"></div>
+	</div>
+	<div>
+	<ul class="ulmenuxs">
+		<li>About us</li>
+		<li>Band</li>
+		<li>Concerts</li>
+		<li>Contact</li>
+	</ul>
+	</div>
+</div>
+
+
 <div id="amunt">
 	<i class="fa fa-arrow-up fletxa" aria-hidden="true"></i>
 </div>

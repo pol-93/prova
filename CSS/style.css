@@ -63,6 +63,7 @@ header {
 	border:2px solid white;
 	top:10px;
 	position:absolute;
+	transition: all 0.5s ease-in-out;
 }
 
 .linea{
@@ -72,6 +73,7 @@ header {
 	height:2px; 
 	left:5px;
 	position:absolute;
+	transition: all 0.5s ease-in-out;
 }
 
 .logoxs{
@@ -81,9 +83,78 @@ header {
 }
 
 .botomenu:hover{
-	background-color:#7f7f7f;
+	background-color:black;
 	cursor:pointer;
 }
+
+.botomenu:hover .linea:nth-child(1){
+	border: 1px solid #b22323;
+	cursor:pointer;
+}
+
+.botomenu:hover .linea:nth-child(2){
+	border: 1px solid #f2ed54;
+	cursor:pointer;
+}
+
+.botomenu:hover .linea:nth-child(3){
+	border: 1px solid #44c44d;
+	cursor:pointer;
+}
+
+#menupermobils{
+	background-color:black;
+	border-right:2px solid #b22323;
+	position:fixed;
+	left:-250px;
+	top:0px;
+	height:100%;
+	width:250px;
+	z-index:25;
+	opacity:0;
+}
+
+.desplegabledalt{
+	border-bottom:1px solid white;
+	overflow:auto;
+	padding:5px;
+}
+
+.bototancar{
+	margin-top:15px;
+	margin-left:15px;
+	float:left;
+}
+
+.bototancar:hover{
+	color:#b22323;
+}
+
+#tancarxs{
+	font-weight:0;
+	font-size:20px;
+	color:white;
+}
+
+#tancarxs:hover{
+	color: #b22323;
+	cursor:pointer;
+}
+
+.ulmenuxs{
+  margin: 12px;
+  cursor: pointer;
+  font-family: TheLightFont;
+  font-size: 20px;
+  color:white;
+}
+.ulmenuxs>li:hover{
+	color:#b22323;
+}
+.ulmenuxs > li{
+	margin-top:20px;
+}
+
 /* Menu Web */
 .menupartdreta {
   position: relative;
