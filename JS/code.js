@@ -109,4 +109,32 @@ $("document").ready(function(){
 		close();
 	});
 	
+	
+	$(".fletxaavall").click(function(){
+		if($(this).parent().parent().parent().children().eq(1).css("display")=="none"){
+			$(this).animate({  borderSpacing: -180 }, {
+				step: function(now,fx) {
+				  $(this).css('-webkit-transform','rotate('+now+'deg)'); 
+				  $(this).css('-moz-transform','rotate('+now+'deg)');
+				  $(this).css('transform','rotate('+now+'deg)');
+				  $(this).parent().parent().parent().children().eq(1).slideDown("slow");
+				},
+				duration:'fast'
+			},'linear')
+			
+		}else{
+			$(this).animate({  borderSpacing: 0 }, {
+				step: function(now,fx) {
+				  $(this).css('-webkit-transform','rotate('+now+'deg)'); 
+				  $(this).css('-moz-transform','rotate('+now+'deg)');
+				  $(this).css('transform','rotate('+now+'deg)');
+				  $(this).parent().parent().parent().children().eq(1).slideUp("slow");
+				},
+				duration:'fast'
+			},'linear');
+			
+
+		}
+	});
+	
 });

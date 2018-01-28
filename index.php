@@ -157,7 +157,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px;">
 			<hr style="float:none;"/>
 		</div>
-	<div class="band visible-xs">
+	<div class="band visible-xs bottompadding">
 			<div class="row" style="margin-left:0px;margin-right:0px;">
 				<div class="imatgeBand">
 					<div class="imatgesfons relatiu" style="background-image:url('./img/band/hal.jpg');height:265px;"></div>
@@ -225,7 +225,7 @@
 			</div>
 			</div>
 	</div>
-	<div class="band visible-md visible-sm">
+	<div class="band visible-md visible-sm bottompadding">
 			<div class="row" style="margin-left:0px;margin-right:0px;">
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/hal.jpg');height:265px;"></div>
@@ -289,7 +289,7 @@
 			</div>
 			</div>
 			</div>
-			<div class="band visible-lg">
+			<div class="bottompadding band visible-lg">
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/hal.jpg');height:265px;"></div>
 				<div class="Artists"> Albert Cerdan  <a style="text-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
@@ -350,10 +350,158 @@
 			</div>
 			</div>
 	</div>
-</div>
+	<div class="row separarmes">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+				<h1 style="padding-left:0px;">CONCERTS</h1>
+			</div>
+			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12"> 
+				<hr/>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="Artists" style="color:black;cursor:default;">FEBRUARY</div>
+			</div>
+			
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 separar" style="margin-bottom:10px;">
+				<div>
+					<div class="concerts">
+						<div class="col-lg-4 col-md-4 col-sm-2 col-xs-12 dimensiodiv">
+							<div class="dataconcert">03/02/2018</div>
+							<div class="relatiu hidden-xs" style="float:right;width:6px;height:100%;">
+								<div class="decoracioBandera" style="left:0px;"></div>
+								<div class="decoracioBandera" style="left:2px;background-color:#f2ed54;"></div>
+								<div class="decoracioBandera" style="left:4px;background-color:#44c44d;"></div>
+							</div>
+						</div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #b22323;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #f2ed54;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #44c44d;height:1px;"></div>
+						<div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 dimensiodiv">
+							<div class="titolconcert">SALA APOLO - Barcelona</div>
+						</div>
+						<div class="col-lg-1 col-md-2 col-sm-2 hidden-xs dimensiodiv">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+						<div class="hidden-lg hidden-sm hidden-md col-xs-12 dimensiodiv" style="border-top:1px solid black;">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+					</div>
+					<div class="infoconcert">
+							<div>At 08:00 p.m.</div>
+							<div>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+							illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</div>
+							<div><button class="bototickets"> BUY TICKETS </button></div>
+							
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 separar" style="margin-bottom:10px;">
+				<div>
+					<div class="concerts">
+						<div class="col-lg-4 col-md-4 col-sm-2 col-xs-12 dimensiodiv">
+							<div class="dataconcert">11/02/2018</div>
+							<div class="relatiu hidden-xs" style="float:right;width:6px;height:100%;">
+								<div class="decoracioBandera" style="left:0px;"></div>
+								<div class="decoracioBandera" style="left:2px;background-color:#f2ed54;"></div>
+								<div class="decoracioBandera" style="left:4px;background-color:#44c44d;"></div>
+							</div>
+						</div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #b22323;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #f2ed54;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #44c44d;height:1px;"></div>
+						<div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 dimensiodiv">
+							<div class="titolconcert">LA SALA - Igualada</div>
+						</div>
+						<div class="col-lg-1 col-md-2 col-sm-2 hidden-xs dimensiodiv">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+						<div class="hidden-lg hidden-sm hidden-md col-xs-12 dimensiodiv" style="border-top:1px solid black;">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+					</div>
+					<div class="infoconcert">
+							<div>At 10:00 p.m.</div>
+							<div>A conubia semper taciti dolor odio luctus tempor quis congue iaculis, eros mollis ultrices velit ligula faucibus vivamus est suscipit.
+							Fames accumsan pulvinar ante praesent libero taciti semper, aenean sociis adipiscing vestibulum venenatis magna..</div>
+							<div><button class="bototickets"> BUY TICKETS </button></div>
+							
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-12 separar" style="margin-bottom:10px;">
+				<div>
+					<div class="concerts">
+						<div class="col-lg-4 col-md-4 col-sm-2 col-xs-12 dimensiodiv">
+							<div class="dataconcert">18/02/2018</div>
+							<div class="relatiu hidden-xs" style="float:right;width:6px;height:100%;">
+								<div class="decoracioBandera" style="left:0px;"></div>
+								<div class="decoracioBandera" style="left:2px;background-color:#f2ed54;"></div>
+								<div class="decoracioBandera" style="left:4px;background-color:#44c44d;"></div>
+							</div>
+						</div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #b22323;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #f2ed54;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #44c44d;height:1px;"></div>
+						<div class="col-lg-7 col-md-6 col-sm-8 col-xs-7 dimensiodiv">
+							<div class="titolconcert">Gitana Food Caravan - Copons</div>
+						</div>
+						<div class="col-lg-1 col-md-2 col-sm-2 hidden-xs dimensiodiv">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+						<div class="hidden-lg hidden-sm hidden-md col-xs-12 dimensiodiv" style="border-top:1px solid black;">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+					</div>
+					<div class="infoconcert">
+							<div>At 08:00 p.m.</div>
+							<div> sociis dui magnis a etiam. Turpis mollis nulla conubia nunc ut lacus facilisis duis suspendisse fermentum habitasse enim vulputate,
+							potenti ipsum scelerisque justo nostra lacinia varius nascetur blandit platea amet suscipit. Consectetur nisl parturient suscipit justo nec 
+							orci rhoncus.</div>
+							<div><button class="bototickets"> BUY TICKETS </button></div>
+							
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 separar" style="margin-bottom:10px;">
+				<div>
+					<div class="concerts">
+						<div class="col-lg-4 col-md-4 col-sm-2 col-xs-12 dimensiodiv">
+							<div class="dataconcert">24/02/2018</div>
+							<div class="relatiu hidden-xs" style="float:right;width:6px;height:100%;">
+								<div class="decoracioBandera" style="left:0px;"></div>
+								<div class="decoracioBandera" style="left:2px;background-color:#f2ed54;"></div>
+								<div class="decoracioBandera" style="left:4px;background-color:#44c44d;"></div>
+							</div>
+						</div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #b22323;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #f2ed54;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #44c44d;height:1px;"></div>
+						<div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 dimensiodiv">
+							<div class="titolconcert">El Kiosk - Igualada</div>
+						</div>
+						<div class="col-lg-1 col-md-2 col-sm-2 hidden-xs dimensiodiv">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+						<div class="hidden-lg hidden-sm hidden-md col-xs-12 dimensiodiv" style="border-top:1px solid black;">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+					</div>
+					<div class="infoconcert">
+							<div>At 11:00 p.m.</div>
+							<div> dapibus maecenas himenaeos risus libero nisl fames iaculis montes vulputate, dui enim sociis ante nibh nulla mus sem vivamus, 
+							ligula nostra quisque.</div>
+							<div><button class="bototickets"> BUY TICKETS </button></div>
+							
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
 </div>
 
-<div id="menupermobils" style="padding-bottom:50px;">
+<div id="menupermobils"">
 	<div class="relative desplegabledalt">
 	<div class="bototancar"> <i class="fa fa-times" id="tancarxs" aria-hidden="true"></i> </div>
 	<div class="logo" style="width:50px;float:right;"></div>

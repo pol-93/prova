@@ -353,8 +353,8 @@ hr {
 #amunt{
 	display:none;
 	position:fixed;
-	bottom:30px;
-	right:30px;
+	bottom:10px;
+	right:10px;
 	background-color:black;
 	width:40px;
 	border-radius:20px;
@@ -486,4 +486,113 @@ hr {
 	background-color:black;
 	opacity:0;
 }
+
+.bottompadding{
+	padding-bottom:50px !important;
+}
+
 /* Fi Band */
+
+/* Concerts */
+
+
+.concerts{
+	border:1px solid black;
+	overflow:auto;
+	background-color:#F5F5F5;
+}
+
+.dimensiodiv{
+	height:50px;
+	overflow:hidden;
+}
+
+.bototickets {
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #d0e5d3;
+  color: #d0e5d3;
+  background-color: #070400;
+  font-family: big_noodle_titling_oblique;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: all 1s ease-in-out;
+}
+.bototickets:hover {
+  background-color: #b22323;
+}
+
+.titolconcert{
+	padding-top:18px;
+	font-family:TheLightFont;
+	text-align:left;
+}
+
+.decoracioBandera{
+	position:absolute;
+	background-color:#b22323;
+	top:0px;
+	height:100%;
+	width:2px;
+}
+
+.dataconcert{
+	padding-top:18px;
+	font-family:TheLightFont;
+	text-align:center;
+	float:left;
+}
+
+.infoconcert{
+	width:100%;
+	background-color:#F5F5F5;
+	border:1px solid black;
+	display:none;
+}
+
+.infoconcert div:nth-child(1){
+	text-align:center;
+	font-family:CaviarDreams;
+	font-size:20px;
+	margin:20px;
+}
+
+
+.infoconcert div:nth-child(2){
+	text-align:center;
+	font-family:CaviarDreams;
+	font-size:16px;
+	margin:20px;
+}
+
+.infoconcert div:nth-child(3){
+	text-align:center;
+	margin:20px;
+}
+
+.fletxaavall{
+	margin:0px auto;
+	width:22px;
+	height:22px;
+	padding-left:2px;
+	margin-top:15px;
+	border-radius:20px;
+	background-color:black;
+	transition: all 0.5s ease-in-out;
+}
+
+.fletxaavall:hover{
+	background-color:#b22323;
+	color:black;
+	cursor:pointer;
+}
+
+.fletxaavall i{
+	margin:2px;
+	margin-left:4px;
+	text-align:center;
+	color:white;
+}
+
+/* Fi Concerts */
