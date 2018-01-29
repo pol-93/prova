@@ -29,6 +29,7 @@ header {
   transition: all 1s;
   margin-left:-15px;
   width:100%;
+  height:55px;
 }
 
 .headerscroll {
@@ -51,8 +52,8 @@ header {
 .posicionar {
   display: block;
   position: absolute;
-  top: 13px;
-  left: 42px;
+  top: 10px;
+  left: 42px;	
 }
 
 .botomenu{
@@ -61,7 +62,7 @@ header {
 	width:31px;
 	height:30px;
 	border:2px solid white;
-	top:10px;
+	top:13px;
 	position:absolute;
 	transition: all 0.5s ease-in-out;
 }
@@ -79,7 +80,7 @@ header {
 .logoxs{
 	float:right;
 	margin-right:10px;
-	margin-top:13px;
+	margin-top:16px;
 }
 
 .botomenu:hover{
@@ -596,3 +597,118 @@ hr {
 }
 
 /* Fi Concerts */
+
+/* contact*/
+
+.contact{
+	background-color:#F5F5F5;
+}
+
+.camp{
+	margin:0px auto;
+	float:none;
+	position:relative;
+	margin-bottom: 15px;
+	font-family:TheLightFont;
+	padding:0px;
+}
+
+.camp:hover label{
+	width:30%;
+}
+
+.focused{
+	background-color:#b22323 !important;
+	width:30% !important
+}
+
+.camp input[type="text"]{
+	border: none;
+	background: #E8E9EA;
+	width: 100%;
+	margin: 0;
+	padding: 18px 0;
+	padding-left: 33%;
+	color: #313A3D;
+	font-size: 1.4em;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.camp label {
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    padding: 18px 0;
+    font-size: 1.45em;
+    letter-spacing: 0.075em;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+	text-align:center;
+	color:#F5F5F5;
+}
+
+.camp input[type="text"]#msg, .camp textarea#msg {
+    height: 60px;
+    resize: none;
+	padding-left:33%;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+}
+
+.camp input[type="text"], .camp textarea {
+    border: none;
+    background: #E8E9EA;
+    width: 100%;
+    margin: 0;
+    padding: 18px 0;
+    padding-left:33%;
+	color: #313A3D;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.botocontacte{
+	width:50%;
+	padding:20px;
+	font-family:TheLightFont;
+	background-color:black;
+	font-size:18px;
+	margin:0px auto;
+	border:none;
+	display:block;
+	color:white;
+	transition:all 1s ease-in-out;
+}
+.botocontacte:hover{
+	background-color:#b22323;
+	color:black;
+}
+
+#missatgeenviat{
+	float:none;
+	margin:0px auto;
+	margin-top:200px;
+	display:none;
+}
+
+.frase{
+	width:100%;
+	border:1px solid black;
+	color:black;
+	font-family:TheLightFont;
+	font-size:25px;
+	padding:20px;
+}
+
+/* Fi Contact */

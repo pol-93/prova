@@ -66,7 +66,7 @@
 				<div class="linea" style="top:16px;"></div>
 			</div>
 		</div>
-		<div class="col-xs-1 col-sm-1 hidden-lg hidden-md col-xs-push-3 col-sm-push-3 logo" style="width:50px;"> 
+		<div class="col-xs-1 col-sm-1 hidden-lg hidden-md col-xs-push-3 col-sm-push-3 logo" style="width:50px;margin-top:3px;"> 
 		</div>
 			<div class="hidden-md hidden-lg logoxs"><img src="./img/facebook.png"></img></div>
 			<div class="hidden-md hidden-lg logoxs"><img src="./img/instagram.png"></img></div>
@@ -442,7 +442,7 @@
 						<div class="visible-xs col-xs-12" style="border:1px solid #b22323;height:1px;"></div>
 						<div class="visible-xs col-xs-12" style="border:1px solid #f2ed54;height:1px;"></div>
 						<div class="visible-xs col-xs-12" style="border:1px solid #44c44d;height:1px;"></div>
-						<div class="col-lg-7 col-md-6 col-sm-8 col-xs-7 dimensiodiv">
+						<div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 dimensiodiv">
 							<div class="titolconcert">Gitana Food Caravan - Copons</div>
 						</div>
 						<div class="col-lg-1 col-md-2 col-sm-2 hidden-xs dimensiodiv">
@@ -495,10 +495,111 @@
 					</div>
 				</div>
 			</div>
-			
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="Artists" style="color:black;cursor:default;">MARCH</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 separar" style="margin-bottom:10px;">
+				<div>
+					<div class="concerts">
+						<div class="col-lg-4 col-md-4 col-sm-2 col-xs-12 dimensiodiv">
+							<div class="dataconcert">10/03/2018</div>
+							<div class="relatiu hidden-xs" style="float:right;width:6px;height:100%;">
+								<div class="decoracioBandera" style="left:0px;"></div>
+								<div class="decoracioBandera" style="left:2px;background-color:#f2ed54;"></div>
+								<div class="decoracioBandera" style="left:4px;background-color:#44c44d;"></div>
+							</div>
+						</div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #b22323;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #f2ed54;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #44c44d;height:1px;"></div>
+						<div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 dimensiodiv">
+							<div class="titolconcert">Razzmataz - Barcelona</div>
+						</div>
+						<div class="col-lg-1 col-md-2 col-sm-2 hidden-xs dimensiodiv">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+						<div class="hidden-lg hidden-sm hidden-md col-xs-12 dimensiodiv" style="border-top:1px solid black;">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+					</div>
+					<div class="infoconcert">
+							<div>At 10:30 p.m.</div>
+							<div> sem posuere consequat sed metus nunc feugiat suscipit tincidunt volutpat ultricies, nullam primis natoque arcu platea rutrum at 
+							torquent purus dictumst. Fringilla cum dignissim placerat nisi duis feugiat malesuada maecenas.</div>
+							<div><button class="bototickets"> BUY TICKETS </button></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 separar" style="margin-bottom:10px;">
+				<div>
+					<div class="concerts">
+						<div class="col-lg-4 col-md-4 col-sm-2 col-xs-12 dimensiodiv">
+							<div class="dataconcert">24/03/2018</div>
+							<div class="relatiu hidden-xs" style="float:right;width:6px;height:100%;">
+								<div class="decoracioBandera" style="left:0px;"></div>
+								<div class="decoracioBandera" style="left:2px;background-color:#f2ed54;"></div>
+								<div class="decoracioBandera" style="left:4px;background-color:#44c44d;"></div>
+							</div>
+						</div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #b22323;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #f2ed54;height:1px;"></div>
+						<div class="visible-xs col-xs-12" style="border:1px solid #44c44d;height:1px;"></div>
+						<div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 dimensiodiv">
+							<div class="titolconcert">Ateneu - Igualada</div>
+						</div>
+						<div class="col-lg-1 col-md-2 col-sm-2 hidden-xs dimensiodiv">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+						<div class="hidden-lg hidden-sm hidden-md col-xs-12 dimensiodiv" style="border-top:1px solid black;">
+							<div class="fletxaavall"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+						</div>
+					</div>
+					<div class="infoconcert">
+							<div>At 06:00 p.m.</div>
+							<div> Proin magna consequat auctor potenti lobortis tristique eu, venenatis nisi aenean nisl quam nunc 
+							inceptos mi, velit nec pulvinar id imperdiet ligula..</div>
+							<div><button class="bototickets"> BUY TICKETS </button></div>
+							
+					</div>
+				</div>
+			</div>
 		</div>
 		
 	</div>
+	<div class="row separarmes contact">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  bandtitol">
+			<div> CONTACT </div>
+		</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px;">
+			<hr style="float:none;"/>
+		</div>
+		<div id="contactar" class="relatiu" style="height:500px;">
+		<div id="formcontact" class="col-lg-12 col-sm-12 col-xs-12 col-md-12" style="clear:both;">
+				
+				<div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 camp">
+					<input type="text" id="name" placeholder="Who are you?"></input>
+					<label for="name">Name</label>
+				</div>
+				<div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 camp">
+					<input type="text" id="email" placeholder="example@xxxx.com"></input>
+					<label for="email">Email</label>
+				</div>
+				<div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 camp">
+					<textarea id="msg" placeholder="Message..."/></textarea>
+					<label for="msg">Message</label>
+				</div>
+				<div class="col-lg-5 col-md-6 col-sm-7 col-xs-12 camp">
+					<button id="contactbutton" class="botocontacte"> Send </button>
+				</div>
+		</div>
+		
+		<div id="missatgeenviat" class="col-lg-5 col-md-6 col-sm-7 col-xs-12 camp">
+				<div class="frase">Thank you for contact us, we will answer you as soon as possible</div> 
+		</div>	
+		</div>
+	
+	</div>
+	<div></div>
 </div>
 
 <div id="menupermobils"">

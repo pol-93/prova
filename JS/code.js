@@ -41,6 +41,16 @@ function close(){
 	  });
 }
 
+function focused(x){
+	$(x).siblings().eq(0).addClass('focused');
+}
+
+function blured(x){
+	if($(x).val()==''){
+		$(x).siblings().eq(0).removeClass('focused');
+	}
+}
+
 $("document").ready(function(){
 	$('.carousel').carousel({
 	  interval: 1000 * 7
@@ -137,4 +147,46 @@ $("document").ready(function(){
 		}
 	});
 	
+	
+	$("#name").focus(function(){
+		focused($(this));
+	});
+	
+	$("#name").blur(function(){
+		blured($(this));
+	});
+	
+	$("#email").focus(function(){
+		focused($(this));
+	});
+	
+	$("#email").blur(function(){
+		blured($(this));
+	});
+	
+	$("#msg").focus(function(){
+		$("#msg").siblings().eq(0).addClass('focused');
+		$("#msg").css('height','180px');
+	});
+	
+	$("#msg").blur(function(){
+		if($("#msg").val()==''){
+			$("#msg").siblings().eq(0).removeClass('focused');
+			$("#msg").css('height','60px');
+		}
+	});
+	
+	$("#contactbutton").click(function(){
+		$("#formcontact").fadeOut("fast");
+		$("#msg").val('');
+		$("#name").val('');
+		$("#email").val('');
+		blured($("#email"));
+		blured($("#name"));
+		$("#msg").siblings().eq(0).removeClass('focused');
+		$("#msg").css('height','60px');
+		$("#missatgeenviat").delay("500").fadeIn("fast");
+		$("#missatgeenviat").delay("5500").fadeOut("fast");
+		$("#formcontact").delay("6200").fadeIn("fast");
+	});
 });
