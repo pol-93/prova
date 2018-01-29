@@ -238,7 +238,7 @@ header {
 }
 
 .separarmes {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .titolslide {
@@ -496,7 +496,9 @@ hr {
 
 /* Concerts */
 
-
+#concertssection{
+	margin-bottom:50px;
+}
 .concerts{
 	border:1px solid black;
 	overflow:auto;
@@ -698,8 +700,9 @@ hr {
 #missatgeenviat{
 	float:none;
 	margin:0px auto;
-	margin-top:200px;
+	padding-top:200px;
 	display:none;
+	text-align:center;
 }
 
 .frase{

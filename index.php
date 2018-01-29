@@ -43,8 +43,8 @@
 		</div>
 		<div class="menupartdreta hidden-xs hidden-sm"> 
 			<ul class="menu">
-				<li><a>About us</a></li>
-				<li><a>Band</a>
+				<li class="aboutusbutton"><a>About us</a></li>
+				<li class="Bandbutton"><a>Band</a>
 					<ul>
 						<li><a>Albert Cerdan </a></li>
 						<li><a> Dani Merme </a></li>
@@ -52,8 +52,8 @@
 						<li><a> Nil Couto </a></li>
 					</ul>
 				</li>
-				<li><a>Concerts</a></li>
-				<li><a>Contact</a></li>
+				<li class="Concertsbutton"><a>Concerts</a></li>
+				<li class="contactlink"><a>Contact</a></li>
 				<li><img src="./img/facebook.png"></img></li>
 				<li><img src="./img/instagram.png"></img></li>
 			</ul>
@@ -92,7 +92,7 @@
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide hidden-xs"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 			totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
 			voluptas. </div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide" id="aboutusbutton"> About Us </button></div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide aboutusbutton"> About Us </button></div>
 		</div>
 		</div>
 		<div class="item relatiu">
@@ -108,7 +108,7 @@
 		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 titolslide"> GET TO KNOW OUR BAND </div>
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide hidden-xs">. Itaque earum rerum hic tenetur a 
 			sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. </div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide"> Band </button></div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide Bandbutton"> Band </button></div>
 			</div>
 		</div>
 		<div class="item relatiu">
@@ -119,7 +119,7 @@
 			<div class="col-lg-8 col-md-6 col-lg-push-2 col-md-push-3 descripcioslide hidden-xs">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
 			cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor 
 			aut officiis. </div>
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide"> Concerts </button></div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 posicioboto" id="provemaqui"><button class="botoslide Concertsbutton"> Concerts </button></div>
 			</div>	
 		</div>
 		
@@ -150,7 +150,7 @@
 		<div class="imatgesfons" style="border-radius:2px;height:350px;width:100%;background-image:url('./img/AboutUs.jpg');"></div>
 	</div>
 </div>
-<div class="row separarmes">
+<div class="row" id="bandsection">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  bandtitol">
 			<div> BAND </div>
 		</div>
@@ -350,7 +350,7 @@
 			</div>
 			</div>
 	</div>
-	<div class="row separarmes">
+	<div class="row separarmes" id="concertssection">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
 				<h1 style="padding-left:0px;">CONCERTS</h1>
@@ -566,7 +566,7 @@
 		</div>
 		
 	</div>
-	<div class="row separarmes contact">
+	<div class="row contact" id="contactsection">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  bandtitol">
 			<div> CONTACT </div>
 		</div>
@@ -594,12 +594,20 @@
 		</div>
 		
 		<div id="missatgeenviat" class="col-lg-5 col-md-6 col-sm-7 col-xs-12 camp">
-				<div class="frase">Thank you for contact us, we will answer you as soon as possible</div> 
+				<div class="frase">Thank you for contact us, we will answer you as soon as possible.</div> 
 		</div>	
 		</div>
 	
 	</div>
-	<div></div>
+	<div class="row">
+		<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12" style="height:100px;background-color:black;">
+			<div style="text-align:center;margin-top:15px;">
+				<img style="margin:5px;width:30px;" src="./img/facebook.png"/>
+				<img style="margin:5px;width:30px;" src="./img/instagram.png"/>
+			</div>
+			<div style="font-family:TheLightFont;font-size:15px;color:white;text-align:center;margin-top:15px;"> © 2018. JAHARMONY AND THE SOUL REBELS. </div>
+		</div>
+	</div>
 </div>
 
 <div id="menupermobils"">
@@ -609,10 +617,10 @@
 	</div>
 	<div>
 	<ul class="ulmenuxs">
-		<li>About us</li>
-		<li>Band</li>
-		<li>Concerts</li>
-		<li>Contact</li>
+		<li class="aboutusbutton">About us</li>
+		<li class="Bandbutton">Band</li>
+		<li class="Concertsbutton">Concerts</li>
+		<li class="contactlink">Contact</li>
 	</ul>
 	</div>
 </div>

@@ -51,6 +51,31 @@ function blured(x){
 	}
 }
 
+function aboutUs(){
+	$('html, body').animate({
+			scrollTop: ($("#aboutussection").offset().top)-50
+	}, 2000);
+}
+
+function Band(){
+	$('html, body').animate({
+			scrollTop: ($("#bandsection").offset().top)-50
+	}, 2000);	
+}
+
+function Concerts(){
+	$('html, body').animate({
+			scrollTop: ($("#concertssection").offset().top)-50
+	}, 2000);
+}
+
+
+function Contact(){
+	$('html, body').animate({
+			scrollTop: ($("#contactsection").offset().top)-50
+	}, 2000);
+}
+
 $("document").ready(function(){
 	$('.carousel').carousel({
 	  interval: 1000 * 7
@@ -87,10 +112,19 @@ $("document").ready(function(){
 		$(e.relatedTarget.children).eq(2).children().eq(2).delay(1000).animate({ opacity: 1, top: "180px" }, 600);
 	});
 	
-	$("#aboutusbutton").click(function(){
-		 $('html, body').animate({
-			scrollTop: ($("#aboutussection").offset().top)-50
-		  }, 2000);
+	$(".aboutusbutton").click(function(){
+		 aboutUs();
+	});
+	
+	$(".Concertsbutton").click(function(){
+		 Concerts();
+	});
+	
+	$(".Bandbutton").click(function(){
+		Band();
+	});
+	$(".contactlink").click(function(){
+		Contact();
 	});
 	
 	$("#amunt").click(function(){
