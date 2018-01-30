@@ -21,7 +21,6 @@ function scrolled() {
 
 $(window).on({ scroll: scrolled });
 
-
 function opacityControl(x){
 	$(x).eq(2).children().eq(0).css('opacity','0');
 	$(x).eq(2).children().eq(0).css('top','20px');
@@ -76,7 +75,14 @@ function Contact(){
 	}, 2000);
 }
 
+function bio(){
+	location.replace("./bio.php");
+}
+
 $("document").ready(function(){
+	
+	
+	
 	$('.carousel').carousel({
 	  interval: 1000 * 7
 	});
@@ -223,4 +229,84 @@ $("document").ready(function(){
 		$("#missatgeenviat").delay("5500").fadeOut("fast");
 		$("#formcontact").delay("6200").fadeIn("fast");
 	});
+	
+	if(checkCookie("pos")){
+		switch(getCookie("pos")){
+			case "aboutus":
+				aboutUs();
+				eraseCookie("pos");
+			break;
+			case "band":
+				Band();
+				eraseCookie("pos");
+			break;
+			case "concerts":
+				Concerts();
+				eraseCookie("pos");
+			break;
+			case "contact":
+				Contact();
+				eraseCookie("pos");
+			break;
+		}
+	}
 });
+
+function aboutuslink(){
+	setCookie("pos","aboutus",1);
+	location.replace("./index.php");
+}
+
+
+function bandlink(){
+	setCookie("pos","band",1);
+	location.replace("./index.php");
+}
+
+
+function concertslink(){
+	setCookie("pos","concerts",1);
+	location.replace("./index.php");
+}
+
+
+function contactlink(){
+	setCookie("pos","contact",1);
+	location.replace("./index.php");
+}
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function eraseCookie(name) {
+    setCookie(name,"",-1);
+}
+
+function checkCookie(x) {
+    var user = getCookie(x);
+    if (user != "") {
+        return true;
+    } 
+	else{
+		return false;
+	}
+} 

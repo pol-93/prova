@@ -155,7 +155,14 @@ header {
 .ulmenuxs > li{
 	margin-top:20px;
 }
-
+.ulmenuxs>ul>li{
+	margin-top:20px;
+	margin-left:20px;
+}
+.ulmenuxs>ul>li:hover{
+	margin-top:20px;
+	color:#b22323;
+}
 /* Menu Web */
 .menupartdreta {
   position: relative;
@@ -715,3 +722,194 @@ hr {
 }
 
 /* Fi Contact */
+
+/* bio */
+
+.xsbio{
+	text-decoration:none;
+	color:white;
+}
+
+.xsbio:hover{
+	color:#b22323;
+	text-decoration:none;
+}
+
+
+
+@media only screen and ( min-width: 320px ) {
+
+	.shell {
+		max-width: 400px;
+	}
+  
+}
+
+
+@media only screen and ( min-width: 768px ) {
+
+	.shell {
+		max-width: 750px;
+	}
+  
+}
+
+@media only screen and ( min-width: 992px ) {
+
+	.shell {
+		max-width: 970px;
+	}
+  
+}
+
+@media only screen and ( min-width: 1200px ) {
+
+	.shell {
+		max-width: 1200px;
+	}
+  
+}
+/* .shell { */
+    /* min-width: 300px; */
+    /* max-width: 480px; */
+/* } */
+
+.shell {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.botocontact{
+  margin:0px auto;
+  margin-top:20px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #d0e5d3;
+  color: #d0e5d3;
+  background-color: black;
+  font-family: big_noodle_titling_oblique;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: all 0.5s ease-in-out;
+}
+.botocontact:hover {
+  background-color: #b22323;
+  cursor: pointer;
+}
+
+.logosxarxessocials{
+	margin:0px auto;
+	display:block;
+	width:190px;
+}
+
+.logosxarxessocials li{
+	float:left;
+	margin:10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.logosxarxessocials li:nth-child(1):hover{
+	color:#0956b5;
+	cursor:pointer;
+}
+
+
+.logosxarxessocials li:nth-child(2):hover{
+	color:#28d4f9;
+	cursor:pointer;
+}
+
+
+.logosxarxessocials li:nth-child(3):hover{
+	color:#f96a23;
+	cursor:pointer;
+}
+
+
+.logosxarxessocials li:nth-child(4):hover{
+	color:#0E7EB5;
+	cursor:pointer;
+}
+
+.botocontactsensewidth{
+	padding:15px;
+	font-family:TheLightFont;
+	background-color:black;
+	font-size:18px;
+	border:none;
+	display:block;
+	color:white;
+	transition:all 0.3s ease-in-out;
+	font-weight:bolder;
+	border-radius:15px;
+}
+.botocontactsensewidth:hover{
+	background-color:#b22323;
+	color:white;
+	cursor:pointer;
+}
+
+.partesquerra{
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.imatgebio{
+		display:block;
+		box-sizing:border-box;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+}
+
+.sotaimatge{
+	clear:both;margin-top:20px;padding:10px;width:195px; margin:0px auto;
+}
+
+.mailbio{
+	float:left;
+	padding:4px;
+	font-family:big_noodle_titling;
+	text-decoration:none;
+	color:#b22323;
+}
+
+.mailbio:hover{
+	text-decoration:none;
+	color:#b22323;
+}
+
+.rang{
+	color:#A19393;
+	margin-top:15px;
+	font-family:TheLightFont;
+}
+
+.nomartista{
+	color:#434345;
+	text-align:center;
+	margin-top:40px;
+}
+
+.intro{
+	font-weight:bolder;
+	color:#434345;
+	clear:both;
+	font-family:CaviarDreams;
+	line-height:20px;
+	padding-top:20px;
+	font-size:15px;
+}
+
+.slogan{
+	font-family:TheLightFont;
+	font-size:30px;
+	text-align:center;
+	font-weight:bolder;
+	margin-top:40px;
+	margin-bottom:40px;
+}

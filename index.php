@@ -34,6 +34,7 @@
 
 <header id="head">
 	<div class="row">
+		<a href="index.php">
 		<div class="col-lg-5 col-md-5 hidden-xs hidden-sm centrat"> 
 				<div class="col-lg-1 col-md-1 hidden-xs hidden-sm col-md-push-1 col-lg-push-1 logo"> 
 				</div>
@@ -41,15 +42,16 @@
 					<img class="posicionar" src="./img/titol.png"></img>
 				</div>
 		</div>
+		</a>
 		<div class="menupartdreta hidden-xs hidden-sm"> 
 			<ul class="menu">
 				<li class="aboutusbutton"><a>About us</a></li>
 				<li class="Bandbutton"><a>Band</a>
 					<ul>
-						<li><a>Albert Cerdan </a></li>
-						<li><a> Dani Merme </a></li>
-						<li><a> Adria </a></li>
-						<li><a> Nil Couto </a></li>
+						<li onclick="bio()"><a>Albert Cerdan </a></li>
+						<li onclick="bio()"><a> Dani Merme </a></li>
+						<li onclick="bio()"><a> Adria Lloret</a></li>
+						<li onclick="bio()"><a> Nil Couto </a></li>
 					</ul>
 				</li>
 				<li class="Concertsbutton"><a>Concerts</a></li>
@@ -66,8 +68,8 @@
 				<div class="linea" style="top:16px;"></div>
 			</div>
 		</div>
-		<div class="col-xs-1 col-sm-1 hidden-lg hidden-md col-xs-push-3 col-sm-push-3 logo" style="width:50px;margin-top:3px;"> 
-		</div>
+		<a href="./index.php"><div class="col-xs-1 col-sm-1 hidden-lg hidden-md col-xs-push-3 col-sm-push-3 logo" style="width:50px;margin-top:3px;">
+		</div></a>
 			<div class="hidden-md hidden-lg logoxs"><img src="./img/facebook.png"></img></div>
 			<div class="hidden-md hidden-lg logoxs"><img src="./img/instagram.png"></img></div>
 		</div>
@@ -130,7 +132,7 @@
 </div>
 </div>
 <div class="row about separarpadding" id="aboutussection">
-	<div class="col-lg-6 col-md-7 col-sm-12"  style="padding-left:45px;">
+	<div class="col-lg-6 col-md-7 col-sm-12"  style="padding-left:45px;margin-bottom:40px;">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
 			<h1 style="padding-left:0px;">About Us</h1>
 		</div>
@@ -161,13 +163,13 @@
 			<div class="row" style="margin-left:0px;margin-right:0px;">
 				<div class="imatgeBand">
 					<div class="imatgesfons relatiu" style="background-image:url('./img/band/hal.jpg');height:265px;"></div>
-					<div class="Artists"> Albert Cerdan  <a style="text-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
+					<div onclick="bio()" class="Artists"> Albert Cerdan  <a style="text-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
 					<div class="ArtistDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
 					<div class="caixa">
 					<div class="caixaDintre">
 					<div class="caixaDintre-inner">
 						<div class="boto-inline boto-inline-xs">
-								<button class="botoslide"> BIOGRAPHY </button>
+								<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 						</div>
 					</div>
 					</div>
@@ -178,13 +180,13 @@
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/merme.jpg');height:265px;">
 				</div>
-				<div class="Artists"> Dani Merme <a style="text-decoration:none;font-size:16px;color:#b22323;">Guitarist</a></div>
+				<div onclick="bio()" class="Artists"> Dani Merme <a style="text-decoration:none;font-size:16px;color:#b22323;">Guitarist</a></div>
 				<div class="ArtistDescription">Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -195,13 +197,13 @@
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/nil.jpg');height:265px;">
 				</div>	
-				<div class="Artists"> Nil Couto <a style="text-decoration:none;font-size:16px;color:#b22323;">Bassist</a> </div>
+				<div onclick="bio()" class="Artists"> Nil Couto <a style="text-decoration:none;font-size:16px;color:#b22323;">Bassist</a> </div>
 				<div class="ArtistDescription">Duis aute irure dolor in reprehenderit in volulore eu fugiat nulla pariatur.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -211,13 +213,13 @@
 			<div class="row" style="margin-left:0px;margin-right:0px;">
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/adri.jpg');height:265px;"></div>
-				<div class="Artists"> Adria Lloret <a style="text-decoration:none;font-size:16px;color:#b22323;">Drummer</a></div>
+				<div onclick="bio()" class="Artists"> Adria Lloret <a style="text-decoration:none;font-size:16px;color:#b22323;">Drummer</a></div>
 				<div class="ArtistDescription">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -229,13 +231,13 @@
 			<div class="row" style="margin-left:0px;margin-right:0px;">
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/hal.jpg');height:265px;"></div>
-				<div class="Artists"> Albert Cerdan  <a style="text-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
+				<div onclick="bio()" class="Artists"> Albert Cerdan  <a style="text-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
 				<div class="ArtistDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -244,13 +246,13 @@
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/merme.jpg');height:265px;">
 				</div>
-				<div class="Artists"> Dani Merme <a style="text-decoration:none;font-size:16px;color:#b22323;">Guitarist</a></div>
+				<div onclick="bio()" class="Artists"> Dani Merme <a style="text-decoration:none;font-size:16px;color:#b22323;">Guitarist</a></div>
 				<div class="ArtistDescription">Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -261,13 +263,13 @@
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/nil.jpg');height:265px;">
 				</div>	
-				<div class="Artists"> Nil Couto <a style="text-decoration:none;font-size:16px;color:#b22323;">Bassist</a> </div>
+				<div onclick="bio()" class="Artists"> Nil Couto <a style="text-decoration:none;font-size:16px;color:#b22323;">Bassist</a> </div>
 				<div class="ArtistDescription">Duis aute irure dolor in reprehenderit in volulore eu fugiat nulla pariatur.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -275,13 +277,13 @@
 			</div>
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/adri.jpg');height:265px;"></div>
-				<div class="Artists"> Adria Lloret <a style="text-decoration:none;font-size:16px;color:#b22323;">Drummer</a></div>
+				<div onclick="bio()" class="Artists"> Adria Lloret <a style="text-decoration:none;font-size:16px;color:#b22323;">Drummer</a></div>
 				<div class="ArtistDescription">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -292,13 +294,13 @@
 			<div class="bottompadding band visible-lg">
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/hal.jpg');height:265px;"></div>
-				<div class="Artists"> Albert Cerdan  <a style="text-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
+				<div onclick="bio()" class="Artists"> Albert Cerdan  <a style="text-decoration:none;font-size:16px;color:#b22323;">Singer</a> </div>
 				<div class="ArtistDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -307,13 +309,13 @@
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/merme.jpg');height:265px;">
 				</div>
-				<div class="Artists"> Dani Merme <a style="text-decoration:none;font-size:16px;color:#b22323;">Guitarist</a></div>
+				<div onclick="bio()" class="Artists"> Dani Merme <a style="text-decoration:none;font-size:16px;color:#b22323;">Guitarist</a></div>
 				<div class="ArtistDescription">Excepteur sint occaecat cupidatat non proident, mollit anim id est laborum.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -322,13 +324,13 @@
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/nil.jpg');height:265px;">
 				</div>	
-				<div class="Artists"> Nil Couto <a style="text-decoration:none;font-size:16px;color:#b22323;">Bassist</a> </div>
+				<div onclick="bio()" class="Artists"> Nil Couto <a style="text-decoration:none;font-size:16px;color:#b22323;">Bassist</a> </div>
 				<div class="ArtistDescription">Duis aute irure dolor in reprehenderit in volulore eu fugiat nulla pariatur.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -336,13 +338,13 @@
 			</div>
 			<div class="imatgeBand">
 				<div class="imatgesfons relatiu" style="background-image:url('./img/band/adri.jpg');height:265px;"></div>
-				<div class="Artists"> Adria Lloret <a style="text-decoration:none;font-size:16px;color:#b22323;">Drummer</a></div>
+				<div onclick="bio()" class="Artists"> Adria Lloret <a style="text-decoration:none;font-size:16px;color:#b22323;">Drummer</a></div>
 				<div class="ArtistDescription">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 				<div class="caixa">
 				<div class="caixaDintre">
 				<div class="caixaDintre-inner">
 					<div class="boto-inline boto-inline-xs">
-							<button class="botoslide"> BIOGRAPHY </button>
+							<button onclick="bio()" class="botoslide"> BIOGRAPHY </button>
 					</div>
 				</div>
 				</div>
@@ -619,6 +621,12 @@
 	<ul class="ulmenuxs">
 		<li class="aboutusbutton">About us</li>
 		<li class="Bandbutton">Band</li>
+			<ul>
+				<li onclick="bio()">Albert Cerdan</li>
+				<li onclick="bio()">Dani Merme</li>
+				<li onclick="bio()">Nil Couto</li>
+				<li onclick="bio()">Adria Lloret</li>
+			</ul>
 		<li class="Concertsbutton">Concerts</li>
 		<li class="contactlink">Contact</li>
 	</ul>
